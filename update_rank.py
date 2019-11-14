@@ -41,4 +41,3 @@ for i in range(len(results)):
 """Updates the current ranks csv file"""
 ranks = pd.DataFrame({"t":ranks.loc[:,"t"].loc[:],"r":ranks.loc[:,"r"].loc[:]})
 ranks.to_csv("CDLR/current_rank.csv")
-
