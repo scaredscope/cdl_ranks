@@ -14,7 +14,3 @@ print(table)
 ranks_table = open("CDLR/ranks_table.txt","w")
 ranks_table.write(table)
 ranks_table.close()
-
-
-
-
