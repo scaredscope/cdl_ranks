@@ -9,11 +9,11 @@ ranks = pd.DataFrame({"t":ranks.loc[:,"t"].loc[:],"r":ranks.loc[:,"r"].loc[:],"r
 
 
 """Updates the current ranks csv file"""
-ranks.to_csv("CDLR/current_rank.csv")
+ranks.to_csv("CDLR/current_rank_2.csv")
 
 
 """loads the ranks from csv files"""
-ranks = pd.read_csv("CDLR/current_rank.csv")
+ranks = pd.read_csv("CDLR/current_rank_2.csv")
 
 
 
